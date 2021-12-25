@@ -14,7 +14,7 @@ const App = () => {
   if (!address) {
     return (
       <div className="landing">
-        <h1>Welcome to {name}</h1>
+        <h1>Welcome to {name} <span>🚲</span></h1>
         <button onClick={() => connectWallet("injected")} className="btn-hero">
           Connect your wallet
         </button>
@@ -26,7 +26,7 @@ const App = () => {
   // which means they've connected their wallet to our site!
   return (
     <div className="landing">
-      <h1>👀 wallet connected, now what!?</h1>
+      <h1>👀 wallet connected, now what!</h1>
     </div>);
 };
 
